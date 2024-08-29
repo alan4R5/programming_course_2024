@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- Responsive parameter below -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title tag involving the title chosen for the page below -->
+    <title>Career Advisor - Job Search</title>
+    <link rel="icon" type="image/x-icon" href="images/doc.svg" />
+    <!-- Parameter that links CSS (CSS describes how HTML elements should be displayed.) for this HTML file -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="images/tie.svg" />
+</head>
+<style>
+    input[type=text],
+    select {
+        width: 96%;
+        padding: 12px 20px;
+        margin-left: 2%;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+
+
+    .navbar {
+        overflow: hidden;
+        background-color: #5E7D27;
+        position: fixed;
+        top: 0;
+        width: 98.8%;
+        z-index: 1;
+    }
+
+    footer {
+        background-color: #5E7D27;
+        color: #2A176F;
+        text-align: center;
+        padding: 20px;
+        width: 97.9%;
+    }
+
+    textarea {
+        width: 95.8%;
+        margin: 2%;
+    }
+
+    body {
+        width: 98.8%;
+    }
+
+    h2 {
+        padding: 8% 2% 2% 2%;
+    }
+
+    form {
+        padding: 1%;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Career Advisor</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="jobsearch.html">Job Search</a></li>
+                    <li><a href="joblist.html">Job Listing</a></li>
+                    <li><a href="videos.html">Video Training</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h2>Job Search</h2>
+
+    <form action="/action_page.php">
+        <label style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 100%;
+          font-weight: bold;
+          padding-left: 2%;
+        " for="name"></label><br />
+        <input type="text" id="keyword" name="keywords" value="Keywords" /><br /><br />
+        <label style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 100%;
+          font-weight: bold;
+          padding-left: 2%;
+        " for="location"></label><br />
+        <input type="text" id="email" name="location" value="Location" /><br /><br />
+    </form>
+
+    <form action="/action_page.php">
+        <select name="job-types" id="job-types">
+            <optgroup label="Job Types">
+                <option value="positive">All Categories</option>
+                <option value="negative">Remote</option>
+                <option value="negative">Hibrid</option>
+                <option value="negative">Presencial</option>
+                <option value="negative">Freelance</option>
+            </optgroup>
+        </select>
+        <br />
+    </form>
+
+    <footer>
+        <!--Waves Container-->
+        <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                </g>
+            </svg>
+        </div>
+        <!--Waves end-->
+
+        <!--Content starts-->
+        <div class="content flex">
+            &copy; 2024 My Job Board. All rights reserved. | <a href="contact.html">Contact</a> | <a
+                href="privacy.html">Privacy</a> |
+            <a href="terms.html">Terms</a>
+        </div>
+        <!--Content ends-->
+    </footer>
+</body>
+
+</html>

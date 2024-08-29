@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- Responsive parameter below -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title tag involving the title chosen for the page below -->
+  <title>Layout 2 - My Blog</title>
+  <link rel="icon" type="image/x-icon" href="images/book2.svg" />
+  <!-- Parameter that links CSS (CSS describes how HTML elements should be displayed.) to this HTML file -->
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /*To align items inside container*/
+    .flex-container {
+      justify-content: space-between;
+      overflow: hidden;
+      display: flex;
+      background-color: gray;
+      height: fit-content;
+      flex-direction: column;
+    }
+
+    /*Items to be aligned inside container*/
+    .flex-container>div {
+      background-color: lightgray;
+      padding: 10px;
+      border-radius: 25px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- The <header> element represents a container for introductory content or a set of navigational links. -->
+  <header>
+    <!--The <h1> to <h6> tags are used to define HTML headings. <h1> defines the most important heading. <h6> defines the least important heading.-->
+    <h1>Motorcycle Diary</h1>
+    <ul style="display: flex; list-style-type: none">
+      <li><a href="https://en.wikipedia.org/wiki/Home">Home</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Motorcycle">About</a></li>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Contact_(Daft_Punk_song)">Contact</a>
+      </li>
+    </ul>
+  </header>
+
+  <div class="flex-container">
+    <div style="margin: 40px 40px 5px 40px">
+      <h2>Motor Conservation</h2>
+      <p><a href="https://en.wikipedia.org/wiki/Engine"><img style="margin-right: 2%;" src="images/motor.png" alt=""
+            width="300px" height="300px" align="left"></a>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quam
+        alias maxime quo nesciunt hic, perferendis error architecto iste
+        sapiente sit laboriosam quia autem commodi ex dolores! Tempora
+        corporis beatae commodi ad velit vitae assumenda fugiat numquam natus
+        ipsam facere iusto soluta rem laborum, placeat ullam deserunt
+        doloremque, libero maxime temporibus sed voluptatum. Accusamus
+        architecto delectus dignissimos. Odio ea rerum ullam, accusantium
+        aperiam aut magnam obcaecati, porro ratione reiciendis, vitae sequi.
+        Voluptatibus excepturi, illo iure quo numquam distinctio id, a, alias
+        cumque ex sunt ratione? Ipsa quas modi magni molestias dolore
+        voluptatem hic velit fuga commodi, maiores, libero, ducimus explicabo.
+      </p>
+    </div>
+
+    <div style="height: 600px; margin: 0px 40px 40px 40px">
+      <h2>Parts Research</h2>
+      <p>
+      <p><a href="https://en.wikipedia.org/wiki/Part"><img style="margin-right: 2%;" src="images/parts.png" alt=""
+            width="300px" height="300px" align="left"></a>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse neque
+        est error! Sit a nulla enim in iusto accusantium voluptas veniam rem
+        doloribus, Ipsa assumenda adipisci nemo vero magni quis temporibus
+        obcaecati nesciunt molestias incidunt veniam ea natus aspernatur sit
+        illum quisquam fuga officiis, ex ad in? Tempora doloribus tenetur,
+        dicta reprehenderit recusandae expedita et voluptatum molestiae
+        exercitationem. Neque saepe consequuntur officia quis labore excepturi
+        fuga voluptates error natus! Quaerat placeat, fuga debitis nam quas
+        saepe explicabo ducimus expedita pariatur aspernatur animi ipsam
+        laboriosam rerum quibusdam quod facilis quo iure illo iusto non
+        dolore. Quaerat alias perspiciatis fugit veritatis doloribus
+        doloremque eaque exercitationem accusamus modi nostrum in odio,
+        nesciunt quae ratione voluptatum error. Corporis accusamus accusantium
+        saepe, sunt ducimus, quidem ipsa nihil velit distinctio sapiente iure
+        asperiores impedit eveniet, mollitia voluptatum rem voluptatem qui
+        tenetur necessitatibus error quaerat dolorem natus. Non!
+      </p>
+    </div>
+  </div>
+  <!-- The <footer> element bellow defines a footer for a document or section. -->
+  <footer>
+    <h4>©2024 Motorheads. All rights reserved.</h4>
+  </footer>
+</body>
+
+</html>

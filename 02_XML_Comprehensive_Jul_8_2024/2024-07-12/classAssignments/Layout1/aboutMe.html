@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- Responsive parameter below -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title tag involving the title chosen for the page below -->
+  <title>Layout 1 - About Me</title>
+  <link rel="icon" type="image/x-icon" href="images/user.svg" />
+  <!-- Parameter that links CSS (CSS describes how HTML elements should be displayed.) to this HTML file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- The <header> element represents a container for introductory content or a set of navigational links. -->
+  <header>
+    <!--The <h1> to <h6> tags are used to define HTML headings. <h1> defines the most important heading. <h6> defines the least important heading.-->
+    <img style="margin-left:46%" width="150px" height="150px" src="images/profile.png" alt="">
+    <h1 style="text-align: center;">Alan</h1>
+    <ul style="display: flex; list-style-type: none; align-items:center">
+      <li><a href="https://en.wikipedia.org/wiki/Web_developer">Web Developer</a></li>
+      <li>|</li>
+      <li><a href="https://en.wikipedia.org/wiki/Designer">Designer</a></li>
+      <li>|</li>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Entrepreneurship">Tech Ent</a>
+      </li>
+    </ul>
+  </header>
+
+  <div class="flex-container">
+    <div style="background-color: lightgrey; margin-top:1%; padding: 10px;">
+      <h2>About Me</h2>
+      <p>
+        Hardware technician at H.S.M. from Brazil. Sales promoter at PC Press S/A. Seller of IT items at Kalunga LTDA.
+        Support Technician at Telefonica do Brasil. Former Art Education teacher affiliated with the Education
+        Department of the Municipality of Sao Paulo. Currently working as a Repair Technician at Quantum Lifecycle
+        Partners. Looking for remote positions in the software development area while studying.
+      </p>
+    </div>
+  </div>
+  <h2>My work</h2>
+  <div class="flex-container" style="display: flex; flex-wrap:wrap">
+    <div style="margin:1% 2% 1% 2%; border-style:solid; width: 390px; height: 390px;">
+      <a href="https://en.wikipedia.org/wiki/Technician"><img src="images/tech.jpeg" alt="" width="390px"
+          height="390px"></a>
+    </div>
+    <div style="margin:1% 2% 1% 1%; border-style:solid; width: 390px; height: 390px;">
+      <a href="https://en.wikipedia.org/wiki/Telemarketing"><img src="images/tele.jpeg" alt="" width="390px"
+          height="390px"></a>
+    </div>
+    <div style="margin:1% 2% 1% 1%; border-style:solid; width: 390px; height: 390px;">
+      <a href="https://en.wikipedia.org/wiki/Sales"><img src="images/sale.jpeg" alt="" width="390px" height="390px"></a>
+    </div>
+    <div style="margin:1% 2% 1% 1%; border-style:solid; width: 390px; height: 390px;">
+      <a href="https://en.wikipedia.org/wiki/Entrepreneurship"><img src="images/teach.jpeg" alt="" width="390px"
+          height="390px"></a>
+    </div>
+  </div>
+  <footer>
+    <h4>©2024 Alan ARS. All rights reserved.</h4>
+  </footer>
+</body>
+
+</html>

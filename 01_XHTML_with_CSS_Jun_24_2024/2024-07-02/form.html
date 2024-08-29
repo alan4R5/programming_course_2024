@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <fieldset>
+        <legend style="font-family: Arial, Helvetica, sans-serif; font-size: 100%; font-weight: bold;">Your Details</legend>
+
+    <form action="/action_page.php">
+      <label style="font-family: Arial, Helvetica, sans-serif; font-size: 100%; font-weight: bold;" for="name">Name:</label><br />
+      <input type="text" id="name" name="name" value="" /><br /><br />
+      <label style="font-family: Arial, Helvetica, sans-serif; font-size: 100%; font-weight: bold;" for="email">Email:</label><br />
+      <input type="text" id="email" name="email" value="" /><br /><br />
+    </fieldset>
+
+    <fieldset>
+        <legend style="font-family: Arial, Helvetica, sans-serif; font-size: 100%; font-weight: bold; ">Your Review</legend>
+
+        <form action="/action_page.php">
+          <label style=" font-family: Arial, Helvetica, sans-serif; font-size: 100%; font-weight: bold; ">How did you hear about us?<select name="found" id="found">
+          <optgroup label="Found">
+            <option value="google">Google</option>
+            <option value="social media">Social Media</option>
+            <option value="newspaper">Newspaper</option>
+          </optgroup>
+        </select>
+        <br />
+      </form>
+
+      <h4 style="font-family: Arial, Helvetica, sans-serif; font-size: 100%; font-weight: bold; ">Would you visit again?</h4>
+
+      <input style="margin-left: 1%" type="radio" id="yes" name="yes" value="Yes"/>
+      <label style="font-family: Arial, Helvetica, sans-serif; font-size: 100%; font-weight: bold;" for="yes">Yes</label>
+      
+      <input style="margin-left: 1%" type="radio" id="no" name="no" value="No"/>
+      <label style="font-family: Arial, Helvetica, sans-serif; font-size: 100%; font-weight: bold;" for="no">No</label>
+      
+      <input style="margin-left: 1%" type="radio" id="maybe" name="maybe" value="Maybe"/> 
+      <label style="font-family: Arial, Helvetica, sans-serif; font-size: 100%; font-weight: bold;" for="maybe">Maybe</label>
+
+      <h3 style="font-family: Arial, Helvetica, sans-serif; font-size: 100%; font-weight: bold; ">Comments:</h3>
+
+      <textarea id="review" name="review" rows="8" cols="120"> </textarea>
+      <br />
+      <input style="font-family: Arial, Helvetica, sans-serif; font-size: 100%" type="submit" value="Submit Review"/>
+    </form>
+</fieldset>
+  </body>
+</html>

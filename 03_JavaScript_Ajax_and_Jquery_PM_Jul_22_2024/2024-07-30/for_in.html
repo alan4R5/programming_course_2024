@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For In Statments</title>
+</head>
+
+<body>
+    <h1>For In Statments</h1>
+
+    <p id="demo">This is the result</p>
+    <button onclick="myFunction()">Click Me</button>
+
+    <script>
+        {
+            //for (a = 1; a <= 10; a++)
+        }
+        function myFunction() {
+            let text = "</br>";
+            let students = { firstName: "Alan", lastName: "Santos", email: "abc@gmail.com", cell: "39748307" }
+            for (let x in students) {
+                text += students[x] + "</br>"
+            }
+            document.getElementById("demo").innerHTML = text
+        }
+    </script>
+</body>
+
+</html>

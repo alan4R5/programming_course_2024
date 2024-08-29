@@ -1,0 +1,53 @@
+General
+01 Ctrl+Shift+N = New window/example (a new window will open immediately)
+02 Ctrl+Shift+W = close window/example (immediately closes the new window) 
+
+Navigation
+03 Ctrl+X = Cut line (empty selection) You can delete the entire line you have selected.
+04 Alt ↑ / ↓ = move line up/down. You can move the line using the arrows without having to erase
+05 Shift+Alt + ↓ / ↑ = Copy line up/down. By pressing the arrow, you copy the line as many times as you like.
+06 Ctrl+Shift+K = Delete line. This will delete the entire line immediately.
+07 Home / End = Go to the beginning / end of the line.
+08 Ctrl+Home = Go to the beginning of the file
+09 Ctrl+End = Go to the end of the file
+
+Search and replace
+10 Ctrl+F = Find. This will open the Global Search sidebar.
+11 Ctrl+H = Replace. This will open the taskbar where you can type what you want to replace.
+
+Multiple cursors and selections
+12 Alt+Click = insert cursor. You can enter the cursor on multiple lines at once and write the same thing on all lines at once
+13 CTRL+D = Multiselect an element. What do you do when you need to change H3 tags to H4 tags (all of them) in a file? You need to select an H3 tag and use the shortcut. It will find every H3 tag and give you  an active cursor for next actions.
+14 Ctrl+U = Undo last cursor operation.
+15 Shift+Alt+I = Place the cursor at the end of each selected line
+16 Ctrl+L = Select current line. Selects the current line, as you do with the mouse when you want to copy and paste something.
+
+Rich language editing
+17 Ctrl+Space = trigger suggestion. The program automatically suggests.
+18 Shift+Alt+F = Document format
+
+Editor management
+19 Ctrl+F4, Ctrl+W = Close editor
+20 Ctrl+\ = split editor
+21 Ctrl+ 1 / 2 / 3 = focus on editor group 1, 2 or 3
+
+File management
+22 Ctrl+N = New file
+23 Ctrl+O = open file...
+24 Ctrl+S = Save
+25 Ctrl+Shift+S = Save As...
+26 Ctrl+F4 = Close
+27 Ctrl+Shift+T = Reopen the package editor
+28 Ctrl+Tab = Open Next
+
+Display
+29 Ctrl+B = Change sidebar display mode
+30 Ctrl+Shift+F = Show search
+31 Ctrl+Shift+G = Show source control
+32 Ctrl+Shift+H = Replace in files
+33 Ctrl+Shift+U = Show output panel
+34 Ctrl+Shift+V = Open Markdown preview
+
+Integrated terminal
+35 Ctrl` = show integrated terminal
+36 Ctrl+Shift` = Create new terminal

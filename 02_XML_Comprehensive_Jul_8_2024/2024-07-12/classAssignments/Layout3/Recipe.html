@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- Responsive parameter below -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title tag involving the title chosen for the page below -->
+  <title>Layout 3 - Grandma's Secret Apple</title>
+  <link rel="icon" type="image/x-icon" href="images/apple.svg" />
+  <!-- Parameter that links CSS (CSS describes how HTML elements should be displayed.) to this HTML file -->
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /*To align items inside container*/
+    .flex-container {
+      justify-content: space-between;
+      overflow: hidden;
+      display: flex;
+      background-color: green;
+      height: fit-content;
+      flex-direction: column;
+    }
+
+    /*Items to be aligned inside container*/
+    .flex-container>div {
+      background-color: white;
+      padding: 25px;
+      border-radius: 30px;
+      box-shadow: 10px 10px darkgray;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- The <header> element represents a container for introductory content or a set of navigational links. -->
+  <header>
+    <!--The <h1> to <h6> tags are used to define HTML headings. <h1> defines the most important heading. <h6> defines the least important heading.-->
+    <h1>Love Apple</h1>
+  </header>
+
+  <div class="flex-container">
+    <div style="margin: 80px 80px 40px 80px">
+      <p>
+        This apple of love recipe originates from Brazil and is always present
+        at June festivals throughout the country.
+      </p>
+    </div>
+
+    <div style="height: 400px; margin: 0px 80px 80px 80px">
+      <h2>Ingredients<img src="images/love.jpg" alt="" width="300px" height="300px" align="right"></h2>
+      <ul>
+        <li>1 kg of sugar</li>
+        <li>500 ml of water</li>
+        <li>1 tablespoon of red dye (powder or liquid)</li>
+        <li>12 apples (small/medium)</li>
+      </ul>
+    </div>
+
+    <div style="height: 600px; margin: 0px 80px 80px 80px">
+      <h2>Method of preparation</h2>
+      <ol>
+        <li>Wash and dry the apples.</li>
+        <li>
+          Stick them with 1 or 2 toothpicks (it will help with firmness when
+          caramelizing).
+        </li>
+        <li>
+          Grease aluminum molds (can be cake pans) with very little oil.
+        </li>
+        <li>Place all other ingredients in a pan.</li>
+        <li>
+          In this recipe, no spoon is used (as this can add sugar to the
+          syrup). Mix just by stirring the pan.
+        </li>
+        <li>
+          Until it boils, you can use high heat, when it boils, change it to
+          medium and keep it for approximately 25 minutes.
+        </li>
+        <li>
+          Dip the tip of an ice cream stick into the syrup and drip into the
+          mold in seconds.
+        </li>
+        <li>
+          Press with your finger (it will crumple) and release onto the pan;
+          If it makes a solid sound, turn it off immediately and begin the
+          process of dipping the apples and placing them on the previously
+          greased pan.
+        </li>
+      </ol>
+    </div>
+  </div>
+  <!-- The <footer> element bellow defines a footer for a document or section. -->
+  <footer>
+    <h4>©2024 Cultural recipes. All rights reserved.</h4>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <input type="button" value="CLR" class="clear" onclick="clr()" />
+        <input type="button" value="%" class="operator" onclick="dis('%')" />
+        <input type="button" value="/" class="operator" onclick="dis('/')" />
+        <input type="button" value="*" class="operator" onclick="dis('*')" />
+        <input type="button" value="7" class="number" onclick="dis('7')" />
+        <input type="button" value="8" class="number" onclick="dis('8')" />
+        <input type="button" value="9" class="number" onclick="dis('9')" />
+        <input type="button" value="-" class="operator" onclick="dis('-')" />
+        <input type="button" value="4" class="number" onclick="dis('4')" />
+        <input type="button" value="5" class="number" onclick="dis('5')" />
+        <input type="button" value="6" class="number" onclick="dis('6')" />
+        <input type="button" value="+" class="operator" onclick="dis('+')" />
+        <input type="button" value="1" class="number" onclick="dis('1')" />
+        <input type="button" value="2" class="number" onclick="dis('2')" />
+        <input type="button" value="3" class="number" onclick="dis('3')" />
+
+        <input type="button" value="=" class="operator" style="height: calc(2* (66px + 10px) - 10px);"
+            onclick="solve()" />
+
+        <input type="button" value="0" class="number zero" onclick="dis('0')" />
+        <input type="button" value="." class="number" onclick="dis('.')" />
+        <input type="button" value="✓" class="root" onclick="dis('sqrt(')" />
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

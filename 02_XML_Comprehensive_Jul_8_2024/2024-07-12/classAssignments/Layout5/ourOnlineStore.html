@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- Responsive parameter below -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title tag involving the title chosen for the page below -->
+  <title>Layout 5 - Our Online Store</title>
+  <link rel="icon" type="image/x-icon" href="images/cart.svg" />
+  <!-- Parameter that links CSS (CSS describes how HTML elements should be displayed.) to this HTML file -->
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /*To align items inside container*/
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: lightblue;
+      height: fit-content;
+      padding-left: 15%;
+    }
+
+    /*Items to be aligned inside container*/
+    .flex-container>div {
+      background-color: white;
+      width: 35%;
+      padding-left: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-right: 5px;
+      margin: 1%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- The <header> element represents a container for introductory content or a set of navigational links. -->
+  <header>
+    <!--The <h1> to <h6> tags are used to define HTML headings. <h1> defines the most important heading. <h6> defines the least important heading.-->
+    <h1>Art Online Store</h1>
+    <ul style="display: flex; list-style-type: none">
+      <li><a href="https://en.wikipedia.org/wiki/Home">Home</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/New_Arrival">New Arrivals</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Best_Sellers_(film)">Best Sellers</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Sales">Sale</a></li>
+    </ul>
+  </header>
+
+  <div class="flex-container">
+    <div style="margin-top: 4%; padding-bottom:1%">
+      <h4>Product 1</h4>
+      <h3><a href="https://en.wikipedia.org/wiki/Contemporary_art"><img src="images/paint1.png" alt="" width="390px"
+            height="390px"></a></h3>
+      <h5>$19.99<h5>
+          <a href="https://www.greenpeace.org/canada/en/"><button>Add to cart</button></a>
+    </div>
+    <div style="margin-top: 4%; padding-bottom:1%">
+      <h4>Product 2</h4>
+      <h3><a href="https://en.wikipedia.org/wiki/Abstractionism"><img src="images/paint2.png" alt="" width="390px"
+            height="390px"></a></h3>
+      <h5>$19.99<h5>
+          <a href="https://www.greenpeace.org/canada/en/"><button>Add to cart</button></a>
+    </div>
+    <div style="margin-bottom: 4%; padding-bottom:1%">
+      <h4>Product 3</h4>
+      <h3><a href="https://en.wikipedia.org/wiki/Expressionism"><img src="images/paint3.png" alt="" width="390px"
+            height="390px"></a></h3>
+      <h5>$19.99<h5>
+          <a href="https://www.greenpeace.org/canada/en/"><button>Add to cart</button></a>
+    </div>
+    <div style="margin-bottom: 4%; padding-bottom:1%">
+      <h4>Product 4</h4>
+      <h3><a href="https://en.wikipedia.org/wiki/Figurative_art"><img src="images/paint4.png" alt="" width="390px"
+            height="390px"></a></h3>
+      <h5>$19.99<h5>
+          <a href="https://www.greenpeace.org/canada/en/"><button>Add to cart</button></a>
+    </div>
+  </div>
+  <!-- The <footer> element bellow defines a footer for a document or section. -->
+  <footer>
+    <p>©2024 Art Online Store. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

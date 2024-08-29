@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- Responsive parameter below -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title tag involving the title chosen for the page below -->
+  <title>Layout - Landing Page</title>
+  <link rel="icon" type="image/x-icon" href="images/leaf.svg" />
+  <!-- Parameter that links CSS (CSS describes how HTML elements should be displayed.) to this HTML file -->
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /*To align items inside container*/
+    .flex-container {
+      display: flex;
+      background-color: greenyellow;
+      height: fit-content;
+    }
+
+    /*Items to be aligned inside container*/
+    .flex-container>div,
+    h2,
+    h3 {
+      background-color: white;
+      margin: 60px;
+      padding: 5px;
+      margin-left: 4%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- The <header> element represents a container for introductory content or a set of navigational links. -->
+  <header>
+    <!--The <h1> to <h6> tags are used to define HTML headings. <h1> defines the most important heading. <h6> defines the least important heading.-->
+    <h1>
+      PROTECT OUR PLANET
+      <!-- A paragraph tag <p> is marked up as follows -->
+      <p>
+        Ecosystems are crucial for several reasons, but two primary ones are:
+      </p>
+    </h1>
+    <a href="https://www.greenpeace.org/canada/en/"><button>Learn more</button></a>
+  </header>
+
+  <div class="flex-container">
+    <div style="box-shadow: 0 8px 24px gray;">
+      <h2>Biodiversity Preservation</h2>
+      <h3>
+        Ecosystems support a wide variety of life forms, including plants,
+        animals, and microorganisms.
+      </h3>
+    </div>
+
+    <div style="box-shadow: 0 8px 24px gray;">
+      <h2>Human Health and Well-being</h2>
+      <h3>
+        Healthy ecosystems provide essential resources that directly impact
+        human health and well-being.
+      </h3>
+    </div>
+  </div>
+  <!-- The <footer> element bellow defines a footer for a document or section. -->
+  <footer>
+    <h4>©2024 The planet where we live. All rights respected.</h4>
+  </footer>
+</body>
+
+</html>

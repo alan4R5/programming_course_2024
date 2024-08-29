@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1</title>
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    First Name <input type="text" id="fname">
+    <br>
+    <br>
+    <br>
+    Last Name <input type="text" id="lname">
+    <br>
+    <br>
+    <button onclick="welcome_msg()">Try It</button>
+
+    <script>
+        function welcome_msg() {
+
+            var user = (document.getElementById("fname").value);
+
+            return alert('Welcome ' + user)
+        }
+
+        function welcome_msg() {
+
+            var user = (document.getElementById("lname").value);
+
+            return alert('Welcome ' + user)
+        }
+    </script>
+</body>
+
+</html>

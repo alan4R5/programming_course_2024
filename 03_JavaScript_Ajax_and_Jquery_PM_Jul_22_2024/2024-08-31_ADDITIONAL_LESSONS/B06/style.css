@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(114, 114, 177);
+    color: white;
+    /*Comentary example*/
+    font: normal 20pt Arial;
+}
+
+h1 {
+    color: rgb(255, 212, 22)
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Loan Calculator</h1>
+        <label for="loan">Loan</label>
+        <input type="number" id="loan" value="" placeholder="">
+        <br>
+        <label for="interest">Interest</label>
+        <input type="number" id="interest" value="" placeholder="">
+
+        <label for="months">Months to pay</label>
+        <input type="number" id="months" value="" placeholder="">
+        <br>
+        <button id="calculate" onclick="calculatePercentual()">Calculate</button>
+        <br>
+        <label>Total per Month:</label>
+        <span id="total"></span>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Temp Conversion</h1>
+        <input type="radio" id="cel" name="fav_language" value="cel" checked>
+        <label for="cel">Celsius</label><br>
+        <input type="radio" id="fah" name="fav_language" value="fah">
+        <label for="fah">Fahrenheit</label><br>
+        <input id="inputTemp" type="number" placeholder="Enter the temperature">
+
+        <br>
+        <p>Converted Temperature: <span id="result"></span> </p>
+        <br>
+        <button id="calculate" onclick="calculateTemp()">Calculate</button>
+        <br>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+/* Below is a simple step to see if the CSS is linked and working with the HTML file  */
+#demo {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #9EB7E5;
+}
+
+.card {
+    flex: 0 1 150px;
+    padding: 50px;
+    margin: 30px;
+    box-shadow: 0px 5px #888888;
+
+}
+
+h1 {
+    color: #304C89;
+    margin-left: 35%;
+}
+
+body {
+    margin: 30px;
+    align-content: center;
+}
+
+
+/*If not used after test, please select all the active code above and press CTRL and / to set it like: /*ID{CODE;}*/
+/* By my tests CSS can interact with BootStrap 5.0.2 but not with the current version*/

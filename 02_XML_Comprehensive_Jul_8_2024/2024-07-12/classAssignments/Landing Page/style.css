@@ -1,0 +1,87 @@
+/* */
+
+body {
+    margin: 0;
+    width: 98vw;
+    max-height: 500px;
+}
+
+header {
+    height: 50vh;
+    max-width: 2500px;
+    background: no-repeat center/cover url(images/layout.jpg);
+}
+
+h1 {
+    font-size: 500%;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 25%;
+    color: white;
+}
+
+h2 {
+    font-size: 300%;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h3 {
+    font-size: 200%;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h4 {
+    font-size: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 2%;
+}
+
+p {
+    font-size: 30%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 8%;
+    color: white;
+
+}
+
+button {
+    font-size: medium;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: 1;
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    background-color: orange;
+
+}
+
+button:hover {
+    color: red;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
